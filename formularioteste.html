@@ -1,18 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formularioteste</title>
 </head>
 <body>
     
 </body>
 <h1>Formulario</h1>
-form action="teste.php" method="get"
-<label for=""id_nome">Nome</label>
+<form action="programa.php" method="GET">
+<label for="id_nome">Nome</label>
 <input type="text"
-       name="aluno"
+       name="aluno"<br></br>
+ <label for="birthday">Data de nascimento:
+</label>
+    <input type="date" id="birthday" name="birthday"><br></form><br>
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <label for="sexo">Informe o sexo</label><br></br>
+      <input type="radio" name="sexo" value="M" checked>M</input><br>
+      
+      <input type="radio" name="sexo" value="F" >F</input>
+      <br>
+      <input type="radio" name="sexo" value="P" >Prefiro nao informar</input>
+      <br>
+      <button>Checar Valor</button><br>
+      <label for="endereço">Endereço:</label><br></br>  
+      <label for="id_nome">Logradouro</label>
+<input type="text"
+       name="Logradouro"<br></br>
+       <label for="id_nome">Bairro</label>
+<input type="text"
+       name="Bairro"<br></br>
+       <label for="id_nome">Cidade</label>
+<input type="text"
+       name="Cidade"<br></br>
+       
+       <label for="idUF">UF</label>
+       <select name="UF" id="inUF">
+        <option>MG</option>
+        <option>RJ</option>
+        <option>DF</option>
+       </select><br></br>
+
+       <label for="idEmail" >Email</label><br></br>
+       <field set></field>
+       <input type="submit" value="Enviar">
+       <input type=""reset" value="Limpar">
+       
+
 </form>    
 </html>
